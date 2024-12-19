@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "win-known-folders",
   "version": "1.0.0",
   "main": "./dist/bundle.cjs",
   "module": "./dist/bundle.mjs",
@@ -13,6 +13,11 @@
     }
   },
   "license": "MIT",
+  "repository": "https://github.com/hve4638/chatai-ts.git",
+  "author": "Hve <hve4638@gmail.com>",
+  "publishConfig": {
+      "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-json": "^6.1.0",
@@ -28,5 +33,8 @@
   "scripts": {
     "build": "rollup -c",
     "pub": "npm publish --access=public"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
   }
 }

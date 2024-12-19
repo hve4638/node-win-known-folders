@@ -1,5 +1,6 @@
 tsconfig.json
 src
-playground
+rollup.config.js
 .env
 .vscode
+*.tgz
